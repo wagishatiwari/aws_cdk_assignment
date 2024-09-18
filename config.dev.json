@@ -1,0 +1,7 @@
+{
+  "environment": "dev",
+  "tableName": "PersonTableDev",
+  "topicName": "PersonCreatedTopicDev",
+  "lambdaName": "PersonCreatedLambdaDev",
+  "apiName": "PersonApiDev"
+}
