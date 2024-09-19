@@ -11,7 +11,6 @@ import {ApiGatewayStack} from "./ApiGateway";
 const env = process.env.NODE_ENV || 'dev';
 const config = JSON.parse(fs.readFileSync(`./config.${env}.json`, 'utf8'));
 
-
 export class AssignmentStack extends Stack {
     constructor(scope: Construct, id: string, props?: StackProps) {
         super(scope, id, props);
@@ -37,7 +36,7 @@ export class AssignmentStack extends Stack {
         const apiGatewayStack = new ApiGatewayStack(this, config.apiName, {
             lambdaFunction: lambdaStack.lambdaFunction
         });
-
-
     }
+
 }
+

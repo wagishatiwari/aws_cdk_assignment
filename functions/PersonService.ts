@@ -2,7 +2,7 @@ import { APIGatewayEvent, APIGatewayProxyResult } from 'aws-lambda';
 import {DynamoDB,SNS} from 'aws-sdk';
 
 const dynamo = new DynamoDB.DocumentClient();
-const TABLE_NAME : string = process.env.HELLO_TABLE_NAME!;
+const TABLE_NAME : string = process.env.PERSON_TABLE_NAME!;
 
 export const createPersonHandler = async (event: APIGatewayEvent): Promise<APIGatewayProxyResult> => {
     if (event.httpMethod === 'POST') {
