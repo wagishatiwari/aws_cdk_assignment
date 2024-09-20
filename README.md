@@ -27,7 +27,7 @@ cdk deploy
 * `npm run build`   compile typescript to js
 * `npm run watch`   watch for changes and compile
 * `npm run test`    perform the jest unit tests
-* ` NODE_ENV=dev cdk deploy --all`  deploy this stack to your default AWS account/region
+* `NODE_ENV=dev cdk deploy --all`  deploy this stack to your default AWS account/region
 * `NODE_ENV=dev npx cdk diff`    compare deployed stack with current state
 * `NODE_ENV=dev npx cdk synth`   emits the synthesized CloudFormation template
 
@@ -40,10 +40,10 @@ cdk deploy
 
 ```json
     {
-      "firstName":"Alpar",
-      "lastName": "Gal",
-      "phoneNumber": "09090",
-      "address": "hhsh"
+      "firstName":"Wagisha",
+      "lastName": "Tiwari",
+      "phoneNumber": "123456789",
+      "address": "Amsterdam"
     }
 ```
 
